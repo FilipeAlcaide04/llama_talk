@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llama Talk</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+
+</head>
+<body>
+    <div class="circuit-bg"></div>
+    
+    <div class="container">
+        <div class="header">
+            <div class="logo">Lamma Talk</div>
+            <div class="subtitle">Who said llamas don't talk, maybe they talk too much</div>
+        </div>
+        
+        <div class="chat-container">
+            <div class="status-bar">
+                <div class="status-item">
+                    <div class="status-dot"></div>
+                    <span>Online</span>
+                </div>
+                <div class="status-item">
+                    <span>Model Active: gemma3:1b</span>
+                </div>
+                <div class="status-item">
+                    <span id="connectionStatus">Connected</span>
+                </div>
+            </div>
+            
+            <div id="mensagens">
+                <div class="empty-state">
+                    Start a conversation about llamas ...<br>
+                    <small>Press the button to activate the voice system</small>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button id="startStop">
+                    <span id="buttonIcon">🎙️</span>
+                    <span id="buttonText">Talk</span>
+                </button>
+                <div class="voice-visualizer" id="voiceVisualizer"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
