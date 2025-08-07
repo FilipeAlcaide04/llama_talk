@@ -1,6 +1,6 @@
 ## 🦙 Llama Talk: AI Gaming Voice Chat
 
-Llama Talk is a web-based voice chat app powered by an AI model (default: gemma3:1b). Just speak, and it responds — in European Portuguese — like a chill conversational llama.
+Llama Talk is a web-based voice chat app powered by an AI model (default: gemma3:1b). Just speak, and it responds — in English or any other language — like a chill conversational llama.
 
 Built with Flask (Python backend) and JavaScript (frontend), it integrates with local or remote AI APIs (e.g., Ollama) to simulate live llama talk.
 
