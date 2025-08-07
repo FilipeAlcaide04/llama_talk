@@ -15,7 +15,7 @@ ollama run gemma3:1b # Change for your prefered model
 ## 🎯 Features
 
 - 🎤 Voice-to-text via browser Speech Recognition
-- 🤖 AI responses in European Portuguese
+- 🤖 AI responses in any language
 - 🧠 Default model: gemma3:1b (configurable)
 - 💬 Real-time connection/status feedback
 - 🌐 Clean, simple web UI
