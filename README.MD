@@ -60,9 +60,7 @@ ollama run gemma3:1b # Change for your prefered model
 
 6. **Launch the App**
    ```sh
-   python app.py
-   # OR
-   python3 app.py
+   ./venv/bin/python app.py
    ```
    Then open [http://localhost:9000](http://localhost:9000) in your browser.
 
